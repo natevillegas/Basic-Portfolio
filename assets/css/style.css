@@ -43,10 +43,6 @@ p {
 	color: #ffffff;
 }
 
-/*div {
-	margin: auto;
-}*/
-
 /* Navigation */
 .navContent {
 	background-color: #ffffff;
@@ -56,6 +52,7 @@ p {
 	border-bottom-width: 1px;
 	border-color: #777777;
 	margin-top: 0px;
+	margin: auto;
 }
 
 nav {
@@ -69,38 +66,44 @@ nav {
 	color: #ffffff;
 	float: left;
 	margin-left: 30px;
+	margin-right: 500px;
 }
 
 ul {
     list-style-type: none;
     /*margin-right: 75px;*/
-    padding-left: 505px;
+    /**padding-left: 480px;**/
+    position: static;
+    /*position: relative;
+    left: 480px;*/
     overflow: hidden;
     background-color: #ffffff;
 }
 
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-decoration: none;
+}
+
 li {
     float: left;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    padding: 40px 10px 0px 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+    padding: 0px 10px 0px 10px;
+    margin-top: 40px;
+}
+
+#pipes {
+	border-left: solid;
+	border-right: solid;
+	border-width: 1px;
+	border-
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    opacity: 0.7;
 }
-
-/*li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.active {
-    background-color: #4CAF50;
-}*/
 
 /* Horizontal line */
 hr { 
